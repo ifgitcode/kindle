@@ -21,9 +21,9 @@ python3 kindle.py
 
 ```powershell
 set src="G:\documents\My Clippings.txt" 
-set dist=$PATH/source.txt
+set dist=F:\MykindleText\kindle-master\source.txt
 set pngsrc=G:\*.png
-set pngdist=$PATH
+set pngdist=F:\MykindleText\kindle-master
 copy /Y  %src% %dist%
 copy /Y %pngsrc% %pngdist%
 ```
